@@ -16,6 +16,7 @@ Key inputs include:
 The target variable is the final innings score.
 
 **Machine Learning Approach**
+
 Problem Type: Supervised learning (Regression)
 
 Model: Neural Network
