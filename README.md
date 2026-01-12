@@ -17,6 +17,9 @@ The target variable is the final innings score.
 
 **Machine Learning Approach**
 Problem Type: Supervised learning (Regression)
+
 Model: Neural Network
+
 Objective: Learn the relationship between the current match state and the final score
+
 The model captures non-linear scoring patterns common in T20 cricket, where run rates vary significantly across different phases of an innings.
