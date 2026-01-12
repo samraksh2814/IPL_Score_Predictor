@@ -1,27 +1,22 @@
-IPL Score Predictor using Keras
-This project is an IPL (Indian Premier League) score predictor built with Keras. It predicts the final target score a team might set in a T20 match based on real-time match inputs.
+🏏 IPL Score Predictor (Machine Learning)
 
- Dataset
-The dataset was generated using web scraping techniques to collect historical IPL match data. Key features include:
+This project applies machine learning regression to predict the final score of an IPL innings based on the current match situation.
+It demonstrates the use of neural networks for tabular sports data, with a focus on data preprocessing, model training, and evaluation.
 
-Current score
+📊 Dataset
 
-Overs completed
+The dataset was generated from historical IPL match data collected via web scraping. Each row represents a snapshot of an innings at a given point in time, capturing the current match state.
+Key inputs include:
+1. Current score
+2. Overs completed
+3. Wickets fallen
+4. Player-related information
+5. Match context variables
 
-Wickets fallen
+The target variable is the final innings score.
 
-Batsmen and bowler details
-
-Match venue and conditions
-
- Model
-A regression-based neural network was developed using the Keras Sequential API. It learns scoring patterns and predicts the final score based on the current game state.
-
- Features
-Real-time target score prediction
-
-Built using deep learning with Keras
-
-Custom dataset created via web scraping
-
-This project demonstrates how machine learning and data engineering can be used in sports analytics to generate meaningful insights
+**Machine Learning Approach**
+Problem Type: Supervised learning (Regression)
+Model: Neural Network
+Objective: Learn the relationship between the current match state and the final score
+The model captures non-linear scoring patterns common in T20 cricket, where run rates vary significantly across different phases of an innings.
